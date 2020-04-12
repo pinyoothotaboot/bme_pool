@@ -150,6 +150,6 @@ if __name__ == "__main__":
             _end = time.time()
             print('[END] - Total time %.2f min.'%((_end-_start)/60))
     except KeyboardInterrupt:
-        print('[MAIN]- CQI Service stop!..')
+        print('[MAIN]- Pool Service stop!..')
         sys.exit()
     
